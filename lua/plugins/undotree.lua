@@ -3,7 +3,7 @@ return {
   lazy = false, -- needs to be explicitly set, because of the keys property
   keys = {
     {
-      "<leader>ct",
+      "<leader>cu",
       vim.cmd.UndotreeToggle,
       desc = "Toggle undotree",
     },
