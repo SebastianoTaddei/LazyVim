@@ -6,7 +6,6 @@ return {
       ["<Tab>"] = { "select_next", "fallback" },
       ["<S-Tab>"] = { "select_prev", "fallback" },
     },
-    -- maybe optional
-    completion = { list = { selection = "auto_insert" } },
+    completion = { list = { selection = { preselect = false, auto_insert = false } } },
   },
 }
