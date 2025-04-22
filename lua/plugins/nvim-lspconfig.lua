@@ -36,6 +36,7 @@ return {
         ltex = {
           settings = {
             ltex = {
+              checkFrequency = "save",
               language = "en-US",
               additionalRules = {
                 enablePickyRules = true,
@@ -46,7 +47,7 @@ return {
               },
             },
           },
-          filetypes = { "tex", "bib", "markdown" },
+          filetypes = { "tex", "bib" },
         },
       },
     },
