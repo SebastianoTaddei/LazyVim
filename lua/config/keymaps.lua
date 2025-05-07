@@ -31,3 +31,5 @@ vim.keymap.set("n", "<leader>bn", function()
     })
   end
 end, { desc = "Toggle Floating Markdown Note" })
+
+vim.keymap.set("n", "<leader>ct", [[:%s/\s\+$<CR>]], { desc = "Trim trailing whitespace in file" })
