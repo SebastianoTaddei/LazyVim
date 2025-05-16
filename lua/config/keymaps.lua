@@ -33,3 +33,10 @@ vim.keymap.set("n", "<leader>bn", function()
 end, { desc = "Toggle Floating Markdown Note" })
 
 vim.keymap.set("n", "<leader>ct", [[:%s/\s\+$<CR>]], { desc = "Trim trailing whitespace in file" })
+vim.keymap.set("n", "<leader>r", "<nop>", { desc = "Run Commands" })
+vim.keymap.set(
+  "n",
+  "<leader>rp",
+  [[:execute "r!python -c 'print(" . input("Python: ") . ")'"<CR>]],
+  { desc = "Run Python expression and insert result" }
+)
