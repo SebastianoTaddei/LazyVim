@@ -33,6 +33,7 @@ vim.keymap.set("n", "<leader>bn", function()
 end, { desc = "Toggle Floating Markdown Note" })
 
 vim.keymap.set("n", "<leader>ct", [[:%s/\s\+$<CR>]], { desc = "Trim trailing whitespace in file" })
+vim.keymap.set("n", "<leader>cw", [[:g/.*/normal gww<CR>]], { desc = "Wrap lines in file" })
 vim.keymap.set("n", "<leader>r", "<nop>", { desc = "Run Commands" })
 vim.keymap.set(
   "n",
