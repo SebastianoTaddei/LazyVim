@@ -13,3 +13,6 @@ Rosati
 Papini
 DAUSY
 Philosophiae
+testbed
+Roborace
+AbuDhabi
