@@ -4,3 +4,4 @@
 vim.o.conceallevel = 0
 vim.g.vimtex_syntax_enabled = 0
 vim.g.tex_flavor = "latex"
+vim.g.snacks_animate = false
